@@ -1,0 +1,182 @@
+
+
+@media only screen and (min-width: 375px) {
+    .content{
+        text-align: center;
+        margin: 70px auto;
+        width: 85%;
+    }
+
+    .content img{
+        width: 100%;
+    }
+
+    h2{
+        color: navy;
+    }
+
+    p{
+        color: navy;
+    }
+
+    #email{
+        width: 90%;
+        border: 2px solid navy;
+        padding: 10px 14px;
+        border-radius: 3px;
+    }
+
+    #get-started{
+        background-color: blue;
+        color: white;
+        margin-top: 15px;
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 3px 4px 4px #4444;
+    }
+
+    .lower-body{
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    }
+
+    .lower-body img{
+        width: 100%;
+    }
+
+    .span{
+        background-color: rgba(247, 247, 247, 0.928);
+        margin-top: -5px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    #illustration2{
+        margin: 25px;
+        width: 85%;
+    }
+
+    h4{
+        color: navy;
+    }
+
+    p{
+        text-align: left;
+        margin: 14px;
+    }
+
+    #arrow{
+        display: inline;
+        width: 4%;
+        position: relative;
+        top: 3px;
+    }
+
+    .greenlink{
+        color: teal;
+    }
+
+    hr{
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.3px solid teal;
+    }
+
+    .card{
+        background-color: white;
+        margin: 0 auto;
+        width: 80%;
+        border-radius: 3px;
+        height: 193px;
+    }
+
+    .info{
+        font-size: 11px;
+        padding: 0 18px;
+    }
+
+    .ap{
+        padding: 18px 18px 0;
+    }
+
+    #avatar{
+        width: 10%;
+        display: inline;
+        position: relative;
+        top: 5px;
+        left: -100px;
+        border-radius: 50%;
+        height: 17%;
+    }
+
+    .name{
+        color: navy;
+        position: relative;
+        top: -55px;
+        left: -45px;
+    }
+
+    .founder{
+        font-size: 8px;
+        position: relative;
+        top: -77px;
+        left: 62px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .content{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #email{
+        display: inline;
+        width: 50%;
+        position: relative;
+        left: -10px;
+    }
+
+    #get-started{
+        display: inline;
+        width: 30%;
+        position: relative;
+    }
+
+    .right{
+        margin-top: 60px;
+    }
+
+    .span{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #illustration2{
+        width: 50%;
+    }
+
+    .stay{
+        font-size: 30px;
+    }
+
+    .greenlink{
+        text-align: left;
+    }
+    
+    #arrow {
+        display: inline;
+        width: 3%;
+        height: 3%;
+        position: relative;
+        top: 3px;
+    }
+
+    .card{
+        width: 50%;
+    }
+}

@@ -1,0 +1,56 @@
+.prefooter{
+    background-color: rgb(75, 45, 132);
+    padding: 57px 20px;
+}
+
+.prefooter h3{
+    color: white;
+    text-align: center;
+}
+
+.prefooter p{
+    color: white;
+    text-align: center;
+}
+
+#input{
+    display: block;
+    padding: 8px 10px;
+    border-radius: 2px;
+    width: 70%;
+    border: none;
+    margin: auto;
+}
+
+#submit{
+    background-color: blue;
+    color: white;
+    margin: 15px 38px;
+    width: 77%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .prefooter{
+        display: flex;
+    }
+
+    .inform{
+        width: 50%;
+    }
+
+    .inform h3,.inform p{
+        text-align: left;
+    }
+
+    .inform h3{
+        margin-left: 10px;
+    }
+
+    #input{
+        width: 200%;
+        margin: 20px 0 0 40px;
+    }
+}

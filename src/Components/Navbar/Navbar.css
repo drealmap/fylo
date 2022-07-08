@@ -1,0 +1,39 @@
+@media only screen and (min-width: 375px) {
+    .Navbar{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+
+    img{
+        width: 50%;
+        height: 50%;
+    }
+
+    a{
+        text-decoration: none;
+        color: navy;
+        margin-top: 10px;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .Navbar{
+        margin: 20px 60px;
+        justify-content: space-between;
+    }
+
+    img{
+        width: 20%;
+    }
+
+    a{
+        font-size: 15px;
+    }
+
+    .Navbar span{
+        padding-top: 10px;
+    }
+}
